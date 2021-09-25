@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -15,4 +16,79 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 6px 20px;
+    border: 2px solid royalblue;
+    border-radius: 6px;
+}
+.link-button:hover{
+    background-color: blue;
+    color: peachpuff;
+    border: 3px solid orange;
+}
+.second-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.second-width img{
+    width: 90%;
+}
+
+
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.resume{
+    text-decoration: none;
+    background-color: orange;
+    padding: 6px 20px;
+    border: 2px solid royalblue;
+    border-radius: 6px;
+}
+.resume:hover{
+    background-color: blue;
+    color: peachpuff;
+    border: 3px solid orange;
+}
+h4{
+    color: orange;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 12px;
+    height: 80%;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-strock{
+    border-left: 7px solid ;
+    border-image: linear-gradient(rgb(255, 60, 0), rgb(228, 171, 66));
+    border-image-slice: 1;
+}
+#child-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
